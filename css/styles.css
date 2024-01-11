@@ -88,6 +88,21 @@
 .main{
   width: 100%;
   height: 100%;
+  background-image: url("bg.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.bg{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.3;
+  z-index: -1;
 }
 
 #services{
@@ -352,31 +367,6 @@ sup {
   top: -0.5em;
 }
 
-.back-video {
-  background-color: #1F1F1F;
-  opacity: 0.3;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-  min-width: 100%;
-  min-height: 100%;
-  margin: auto;
-}
-
-@media (min-aspect-ratio:16/9) {
-    .back-video{
-      width: 100%;
-      height: auto;
-    }
-}
-
-@media (max-aspect-ratio:16/9) {
-  .back-video{
-    width: auto;
-    height: 100%;
-  }
-}
 
 #contact {
   background-image: url("../assets/img/contact.jpg");
