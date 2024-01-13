@@ -379,7 +379,6 @@ sup {
   background-size: cover;
 }
 .contact{
-  padding: 30px 0 30px 0;
   border-radius: 25px;
 }
 
@@ -10975,7 +10974,7 @@ body {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 50px 0;
 }
 
 .text-white-75 {
